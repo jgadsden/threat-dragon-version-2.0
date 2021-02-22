@@ -3,3 +3,12 @@ node_modules
 dist
 dist-ssr
 *.local
+
+# ignore Apple's desktop store files
+**/.DS_Store
+# ignore VS and Eclipse files
+.vscode/
+.settings/
+# ignore IntelliJ IDEA files
+.idea/
+
