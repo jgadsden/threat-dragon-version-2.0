@@ -11,3 +11,8 @@ Threat Dragon is a [node.js](https://nodejs.org)
 [Angular](https://angular.io/) framework.
 It comes in two variants, this [web application](https://github.com/OWASP/threat-dragon)
 and also a [desktop application](https://github.com/OWASP/threat-dragon-desktop).
+
+## Docker
+docker file
+build from td/ directory : `docker build -t threat-dragon .`
+run using: `docker run -t threat-dragon`
