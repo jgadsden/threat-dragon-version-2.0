@@ -1,6 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/images/threatdragonx256.png" />
-  <Welcome msg="OWASP Threat Dragon" />
+  <Welcome msg="OWASP Threat Dragon" version="2.0" />
 </template>
 
 <script setup>

@@ -9,6 +9,7 @@ dist-ssr
 # ignore VS and Eclipse files
 .vscode/
 .settings/
+.jshint*
 # ignore IntelliJ IDEA files
 .idea/
 

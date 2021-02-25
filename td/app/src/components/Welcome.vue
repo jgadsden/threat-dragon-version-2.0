@@ -1,5 +1,6 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <img alt="Vue logo" src="../assets/images/threatdragonx256.png" />
+  <h1 v-once>{{ msg }} {{ version }}</h1>
 
   <p>
     <a href="https://threatdragon.github.io/" target="_blank">Threat Dragon Documentation</a> |
@@ -10,12 +11,13 @@
 
 <script setup>
 import { defineProps, reactive } from 'vue'
+import { getVersion } from '../services/HelpService'
 
 defineProps({
-  msg: String
+  msg: String,
+  version: String
 })
 
-const state = reactive({ count: 0 })
 </script>
 
 <style scoped>
