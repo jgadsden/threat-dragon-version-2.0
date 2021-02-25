@@ -11,7 +11,6 @@
 
 <script setup>
 import { defineProps, reactive } from 'vue'
-import { getVersion } from '../services/HelpService'
 
 defineProps({
   msg: String,

@@ -14,6 +14,19 @@ app.get('/api/version', (req, res) => {
   console.log("sent version", version)
 });
 
+app.get('/api/pdf', (req, res) => {
+  console.log(req.path, 'called')
+  res.json({ pdf: version });
+  console.log("sent pdf", version)
+});
+
+app.post('/api/verbose', (req, res) => {
+  const verbose = req.body.verbose;
+  console.log(req.path, 'called')
+  res.json("Set verbosity");
+  console.log('Set verbosity:', verbose);
+});
+
 app.listen(port, () => {
     console.log(`Server listening on the port::${port}`);
 });

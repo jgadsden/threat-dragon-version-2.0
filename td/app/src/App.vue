@@ -4,6 +4,7 @@
 
 <script setup>
   import Welcome from './components/Welcome.vue'
+  import { getVersion } from './services/HelpService'
 </script>
 
 <style>
