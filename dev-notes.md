@@ -8,11 +8,25 @@ but some of the commands (eg `cd ../..`) need to be modified if running on a Win
 
 Threat Dragon is a [node.js](https://nodejs.org)
 [single page application](https://en.wikipedia.org/wiki/Single-page_application) built on the
-[Angular](https://angular.io/) framework.
+[Vue](https://v3.vuejs.org/guide/introduction.html#what-is-vue-js) framework.
 It comes in two variants, this [web application](https://github.com/OWASP/threat-dragon)
 and also a [desktop application](https://github.com/OWASP/threat-dragon-desktop).
 
 ## Docker
-docker file
-build from td/ directory : `docker build -t threat-dragon .`
-run using: `docker run -t threat-dragon`
+* docker file
+* build from td/ directory : `docker build -t threat-dragon .`
+* run using: `docker run -t threat-dragon`
+
+## Running as a webapp
+* build web app from td/app
+* npm install
+* npm run-script build
+* build api
+* npm install
+* npm run-script build
+* npm run-script dev
+
+Navigate to:
+* http://localhost:3000/
+* http://localhost:3000/api/pdf
+* http://localhost:3000/api/version
