@@ -13,7 +13,9 @@ which has the issues and pull requests from October 2015 up to June 2020.
 ## [OWASP](https://www.owasp.org) Threat Dragon #
 
 Threat Dragon is a free, open-source, cross-platform threat modelling application including system diagramming
-and a threat rule engine to auto-generate threats/mitigations. It is an [OWASP Incubator Project](https://www.owasp.org/index.php/OWASP_Threat_Dragon).
+and a threat rule engine to auto-generate threats/mitigations.
+It is an [OWASP Incubator Project](https://www.owasp.org/index.php/OWASP_Threat_Dragon) and follows the values and principles
+of the [threat modeling manifesto](https://www.threatmodelingmanifesto.org/).
 
 1. [**A web application (this repo)**](https://github.com/owasp/threat-dragon):
 
