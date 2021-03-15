@@ -1,19 +1,25 @@
 ---
 layout: page
-title: Downloads
+title: Install
 permalink: /downloads/
 nav_order: 2
 ---
 
-Downloading the desktop app
+## [OWASP](https://www.owasp.org) Threat Dragon
 
-The following installable versions are available for download from GitHub:
+[Threat Dragon](http://owasp.org/www-project-threat-dragon) comes in two variants, 
+desktop application and webb appliccation.
 
-* Windows (64 bit)
-* MacOS
-* Linux
+### Downloading and installing the desktop app
 
- The current versions of the desktop application are not code-signed.
- This means you could get a warning when you try to install it on Windows.
- It also means that the application will not auto-update on any of the platforms.
- This will be fixed in a future release.
+Installable versions are available for download from GitHub:
+
+* Windows (64 bit) installer
+* MacOS installer
+* Linux snap, AppImage, debian and rpm installers
+
+The current versions of the desktop application are not code-signed, so:
+* you could get a warning when installed on Windows platforms
+* the application will not auto-update, though this may be fixed in later versions
+
+### Downloading and running the web app

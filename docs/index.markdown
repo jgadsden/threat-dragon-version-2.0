@@ -20,7 +20,7 @@ permalink: /
 
 [owasp-organization]: https://github.com/owasp
 
-## OWASP Threat Dragon
+## [OWASP](https://www.owasp.org) Threat Dragon
 
 ![Cupcake Image](/public/threatdragonx256.png){: .image-left }
 
@@ -34,6 +34,6 @@ In the future, there will be deeper integration with GitHub (and other code repo
 Threat Dragon is currently in development as an OWASP incubator project, so there might still be some bugs.
 You can find the source code for Threat Dragon on GitHub
 [OWASP][owasp-organization] / [threat-dragon](https://github.com/OWASP/threat-dragon)
-where you can also ask for changes or report any bugs.
+where you can also ask for changes or report any issues.
 
 ![OWASP logo](/public/owasp.png){: .image-right }
