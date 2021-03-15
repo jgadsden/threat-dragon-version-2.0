@@ -3,7 +3,7 @@ layout: page
 title: Desktop application install
 parent: Install
 permalink: /install-desktop/
-nav_order: 2
+nav_order: 3
 ---
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
@@ -11,7 +11,7 @@ nav_order: 2
 [Threat Dragon](http://owasp.org/www-project-threat-dragon) comes in two variants, 
 desktop application and web application.
 
-### Desktop application install instructions
+## Desktop application install instructions
 Installable versions are available for download from the [OWASP GitHub area](https://github.com/OWASP/threat-dragon-desktop/releases):
 
 * Windows (64 bit) installer

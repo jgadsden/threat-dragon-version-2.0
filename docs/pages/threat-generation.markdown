@@ -5,7 +5,6 @@ permalink: /threat-generation/
 nav_order: 5
 ---
 
-
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
 [Threat Dragon](http://owasp.org/www-project-threat-dragon)
