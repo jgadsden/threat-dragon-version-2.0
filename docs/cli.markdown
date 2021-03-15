@@ -7,18 +7,18 @@ nav_order: 7
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
-With the desktop version of Threat Dragon installed, and if the executable is
-in the environment path, then Threat Dragon can be run from the command line.
+With the desktop version of [Threat Dragon](http://owasp.org/www-project-threat-dragon) installed,
+and if the executable is in the environment path, then Threat Dragon can be run from the command line.
 
-For example on MacOS and Linux:
+For example after install on MacOS and Linux:
 
 `OWASP-Threat-Dragon`
 
-or on Windows:
+or after install on Windows:
 
 `OWASP-Threat-Dragon.exe`
 
-AppImage does not need installation, so after downloading version 1.3.1 for example:
+AppImage does not need installation, so after downloading version 1.3.1 (for example) just run:
 
 `./OWASP-Threat-Dragon-1.3.1.AppImage`
 
