@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting Started
+title: Getting started
 permalink: /getting-started/
 nav_order: 3
 ---

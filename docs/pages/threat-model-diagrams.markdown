@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Threat Model Diagrams
+title: Threat model diagrams
 permalink: /threat-model-diagrams/
 nav_order: 4
 ---

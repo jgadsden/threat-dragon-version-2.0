@@ -1,6 +1,6 @@
 ---
 layout: page
-title: API
+title: Application interface
 permalink: /api/
 nav_order: 6
 ---

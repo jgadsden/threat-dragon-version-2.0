@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Threat Generation
+title: Threat generation
 permalink: /threat-generation/
 nav_order: 5
 ---
