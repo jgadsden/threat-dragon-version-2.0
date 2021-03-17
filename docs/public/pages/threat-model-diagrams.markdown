@@ -8,7 +8,8 @@ nav_order: 4
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
-[Threat Dragon](http://owasp.org/www-project-threat-dragon)
+Creating the [Threat Dragon](http://owasp.org/www-project-threat-dragon) diagrams,
+once you have [created or opened](/getting-started) an existing threat model file 
 
 Threat model diagrams
 
@@ -16,6 +17,7 @@ Diagram title
 
 To edit the diagram title, click or tap the  icon towards the top right of the diagram editor. When you have edited it, tap or click
 
+<button type="button" name="button" class="btn">Button element</button>{: .btn .btn-blue }
 
 to save your change, or
 
