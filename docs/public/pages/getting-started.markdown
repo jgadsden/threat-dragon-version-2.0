@@ -72,21 +72,22 @@ mapping out your system [in a diagram](/threat-model-diagrams).
 
 ## Loading a demo model
 If you are wondering how to start you can load a sample threat model.
-On the welcome page you can download an example by clicking on the download area.
+On the welcome page you can download an example by clicking on the **download** area.
 If you are using the desktop application you can select 'Open Demo Model' pull down menu.
 
 This should give you some ideas on how to get started with your own model, and has
-diagrasms, model details and threats as examples.
+diagrams, model details and threats as examples.
 
 ## Opening an existing model
 
 ### Web application
 If you have a repository that already has threat models, you can open them by
-clicking on the open area on the Welcome page.
+clicking on the **open** area on the Welcome page.
 You will then be able to select a repo and branch and then you will be able to choose from a list of models.
 
 ### Desktop application
-If you have an existing model file saved locally, you can open it by clicking on the open area on the Welcome page.
+If you have an existing model file saved locally, you can open it by clicking on
+the **open** area on the Welcome page.
 You will then be able to navigate to the model file in your local file system and open it.
 
 The demo model should give you some ideas on how to get started with your own model.
