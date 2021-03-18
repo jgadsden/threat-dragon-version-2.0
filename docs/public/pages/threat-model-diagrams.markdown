@@ -92,15 +92,5 @@ The toolbar on the diagram editing page supports some general diagramming featur
 ## Element properties
 To edit the properties of a model element, first select it.
 The element properties are shown on the right side of the diagram editor.
-In a future version of Threat Dragon, these properties will be used by the threat generation engine to suggest threats and mitigations for your model.
-
-## Adding and editing threats
-To add threats to elements in your diagram, select an element
-and click 0n 'Edit Threats' on the left side of the diagram editor.
-This will collapse the model element stencil and show the threats for the selected element.
-To add a new threat select '+ Add a new threat ...'
-
-Enter the details for your threat in the threat dialog.
-Values for 'Title' and 'Threat Type' are mandatory.
-When you are done hit **Save** and your new threat should appear.
-To edit it again click on the threat title.
+In a future version of Threat Dragon, these properties will be used by the
+threat generation engine to suggest threats and mitigations for your model.
