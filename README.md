@@ -24,13 +24,19 @@ installers for Windows, Mac OSX and Linux.
 
 [End user help](https://threatdragon.github.io) is available for both variants
 
+## Development
+We need contributors for this project, and there are some [developer notes](dev-notes.md) that should help.
+
+To get started clone this repo noting that it contains a sub-module for the docs: `git clone --recursive git@github.com:OWASP/threat-dragon.git`
+If you cloned the repo with out the recursive flag use command
+`git submodule update --init --recursive` to populate the docs directory.
+
 ## Vulnerability disclosure
 
-If you find a vulnerability in this project please let us know ASAP and we will fix it as a priority.
+If you find a vulnerability in this project please let us know and we will fix it as a priority.
 For secure disclosure, please see the [security policy](SECURITY.md).
 
-### Project leader
-
-Mike Goodwin (mike.goodwin@owasp.org)
-
+### Project leaders
+* Mike Goodwin (mike.goodwin@owasp.org)
+* Jon Gadsden (jon.gadsden@owasp.org)
 

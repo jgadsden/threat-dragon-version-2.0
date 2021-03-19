@@ -1,8 +1,9 @@
-# Developer notes for [OWASP](https://www.owasp.org) [Threat Dragon](https://owasp.org/www-project-threat-dragon/) version 2 #
+# Developer notes for [OWASP](https://www.owasp.org) [Threat Dragon](https://owasp.org/www-project-threat-dragon/) version 2.x
 
-## Overview ##
+## Overview
 
 This is a collection of notes used during development, most of which should be up to date - if not then raise an issue.
+
 The recipes are for both Windows and Linux/MacOS; in general the `npm` and `git` commands are the same on all platforms,
 but some of the commands (eg `cd ../..`) need to be modified if running on a Windows platform.
 
@@ -12,21 +13,26 @@ Threat Dragon is a [node.js](https://nodejs.org)
 It comes in two variants, this [web application](https://github.com/OWASP/threat-dragon)
 and also a [desktop application](https://github.com/OWASP/threat-dragon-desktop).
 
-## Docker
-* docker file
-* build from td/ directory : `docker build -t threat-dragon .`
-* run using: `docker run -t threat-dragon`
+## Running the application
+* Build web app from td/app
+```
+npm install
+npm run-script build
+```
 
-## Running as a webapp
-* build web app from td/app
-* npm install
-* npm run-script build
-* build api
-* npm install
-* npm run-script build
-* npm run-script dev
+* Build api from td/api
+```
+npm install
+npm run-script build
+npm run-script dev
+```
 
 Navigate to:
 * http://localhost:3000/
 * http://localhost:3000/api/pdf
 * http://localhost:3000/api/version
+
+## Docker
+Docker file can be used to run the webapp:
+* build from td/ directory : `docker build -t threat-dragon .`
+* run using: `docker run -t threat-dragon`
