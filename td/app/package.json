@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "e2e": "./node_modules/.bin/karma start --single-run",
+    "serve": "vite preview",
+    "test": "mocha"
   },
   "description": "OWASP Threat Dragon - a free, open source threat modelling tool",
   "author": {
@@ -23,6 +25,14 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.1.4",
     "@vue/compiler-sfc": "^3.0.5",
+    "jasmine-core": "^3.7.1",
+    "karma": "^6.2.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-firefox-launcher": "^2.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-safari-launcher": "^1.0.0",
+    "mocha": "^8.3.2",
     "vite": "^2.0.1"
   }
 }
