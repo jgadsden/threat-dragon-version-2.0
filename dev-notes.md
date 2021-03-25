@@ -20,7 +20,7 @@ npm install
 npm run-script build
 ```
 
-* Build api from td/api
+* Build api from td/server
 ```
 npm install
 npm run-script build
