@@ -22,6 +22,7 @@ router.get('/verbose', (req, res) => {
 router.post('/verbose', (req, res) => {
   verbose = req.body.verbose;
   res.json("Set verbosity");
+  console.log(`Debug level set to::${verbose}`);
 });
 
 module.exports = router;
